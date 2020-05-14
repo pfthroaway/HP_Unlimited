@@ -6,8 +6,8 @@
     <ProjectGuid>{1A7271B4-3437-47E8-B65B-7867A10DA7EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <OutputPath>.mono\temp\bin\$(Configuration)</OutputPath>
-    <RootNamespace>HPUnlimited</RootNamespace>
-    <AssemblyName>HPUnlimited</AssemblyName>
+    <RootNamespace>HP_Unlimited</RootNamespace>
+    <AssemblyName>HP_Unlimited</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <GodotProjectGeneratorVersion>1.0.7374.16792</GodotProjectGeneratorVersion>
     <BaseIntermediateOutputPath>.mono\temp\obj</BaseIntermediateOutputPath>
@@ -53,8 +53,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="actors\Player.cs" />
+    <Compile Include="actors\Hero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="scenes\Building.cs" />
+    <Compile Include="scenes\CityScene.cs" />
+    <Compile Include="scenes\Shop.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
